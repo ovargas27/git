@@ -31,9 +31,9 @@ when "mac_os_x"
   default['git']['osx_dmg']['checksum']    = "e1d0ec7a9d9d03b9e61f93652b63505137f31217908635cdf2f350d07cb33e15"
 else
   default['git']['prefix'] = "/usr/local"
-  default['git']['version'] = "1.8.2.1"
-  default['git']['url'] = "https://nodeload.github.com/git/git/tar.gz/v#{node['git']['version']}"
-  default['git']['checksum'] = "bdc1768f70ce3d8f3e4edcdcd99b2f85a7f8733fb684398aebe58dde3e6bcca2"
+  default['git']['version'] = "1.8.4"
+  default['git']['url'] = "https://git-core.googlecode.com/files/git-#{node['git']['version']}.tar.gz"
+  default['git']['checksum'] = "2a361a2d185b8bc604f7f2ce2f502d0dea9d3279"
 end
 
 default['git']['server']['base_path'] = "/srv/git"
